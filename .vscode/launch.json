@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "by-gdb",
+            "request": "launch",
+            "name": "Launch(gdb) SatisfactIUT",
+            "program": "SatisfactIUT",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "debug SatisfactIUT"
+        }
+    ]
+}
